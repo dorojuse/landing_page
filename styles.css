@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box { 
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+  
+.first {
+    background-color: #1F2937;
+}
+
+.third {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
